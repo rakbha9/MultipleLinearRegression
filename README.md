@@ -41,10 +41,16 @@ The below are the high level steps that will be performed to do the Multiple Lin
 - Evaluation
 
 ## Conclusions
+We can see that the equation of our best fitted line is:
+
+cnt = 4510.7685 + (869.1712 * atemp) − (414.8227 * season_spring) + (220.5369 * season_winter) 
+     + (1043.7114 * yr_1) + (101.9642 * mnth_May) + (147.7071 * mnth_Sept) − (381.7904 * weathersit_L)  
+	 - (272.3049 * weathersit_M)
+	 
 Based on final model the below features explain the demand for bike rentals as :
 
 - yr_1 - Year 2019 (1043.7114) - Rental growth has increased significantly from 2018 to 2019 
-- atemp - Feeling Temperatrure (869.1712) - It has very high impact on the bike rentals as many people tend to rent bikes when the feeling temperature is good and not too cold or too hot.This suggests that people are more likely to rent bikes when the weather feels warmer, which aligns with expected seasonality.
+- atemp - Feeling Temperature (869.1712) - It has very high impact on the bike rentals as many people tend to rent bikes when the feeling temperature is good and not too cold or too hot.This suggests that people are more likely to rent bikes when the weather feels warmer, which aligns with expected seasonality.
 - Season -
      a) season_spring (-414.8227) - Rentals decrease significantly in the spring probably because of rains.
      b) season_winter (220.5369) - Winter shows a positive impact on rentals.
