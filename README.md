@@ -8,6 +8,7 @@ BoomBikes has recently suffered considerable dips in their revenues. In order to
 * [General Info](#general-information)
 * [Approach](#approach)
 * [Conclusions](#conclusions)
+* [Recommendations](#recommendations)
 * [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -40,7 +41,7 @@ The below are the high level steps that will be performed to do the Multiple Lin
 - Evaluation
 
 ## Conclusions
-Based on final model the below features explain the demand as :
+Based on final model the below features explain the demand for bike rentals as :
 
 - yr_1 - Year 2019 (1043.7114) - Rental growth has increased significantly from 2018 to 2019 
 - atemp - Feeling Temperatrure (869.1712) - It has very high impact on the bike rentals as many people tend to rent bikes when the feeling temperature is good and not too cold or too hot.This suggests that people are more likely to rent bikes when the weather feels warmer, which aligns with expected seasonality.
@@ -57,7 +58,7 @@ Bike rentals increased slightly in May,September probably because of pleasant we
 	 b) weathersit_M (-272.3049)- 
 Weather conditions negatively impact bike rentals, particularly when conditions include mist, clouds, or light rain. 
 
-Recommendations : 
+## Recommendations
 
 - Promotions and campaigns should be increased during warmer seasons or favorable weather periods to capitalize on increased demand. Also, forecasting demand based on expected temperature changes could improve bike availability management.
 - Understanding seasonal preferences allows for seasonal marketing adjustments. Discounts can be provided on off-season to generate more bike rentals.
