@@ -1,5 +1,5 @@
 # Project Name
-Prediction of rental bikes using Multiple Linear Regression
+Prediction of rental bikes using Multiple Linear Regression.
 
 ## Introduction
 BoomBikes has recently suffered considerable dips in their revenues. In order to make a business plan to accelerate its revenue we have to model the demand for shared bikes with the available independent variables.
