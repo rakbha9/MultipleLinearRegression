@@ -42,28 +42,28 @@ The below are the high level steps that will be performed to do the Multiple Lin
 ## Conclusions
 Based on final model the below features explain the demand as :
 
-1) yr_1 - Year 2019 (1043.7114) - Rental growth has increased significantly from 2018 to 2019 
-2) atemp - Feeling Temperatrure (869.1712) - It has very high impact on the bike rentals as many people tend to rent bikes when the feeling temperature is good and not too cold or too hot.This suggests that people are more likely to rent bikes when the weather feels warmer, which aligns with expected seasonality.
-3) Season -
+- yr_1 - Year 2019 (1043.7114) - Rental growth has increased significantly from 2018 to 2019 
+- atemp - Feeling Temperatrure (869.1712) - It has very high impact on the bike rentals as many people tend to rent bikes when the feeling temperature is good and not too cold or too hot.This suggests that people are more likely to rent bikes when the weather feels warmer, which aligns with expected seasonality.
+- Season -
      a) season_spring (-414.8227) - Rentals decrease significantly in the spring probably because of rains.
      b) season_winter (220.5369) - Winter shows a positive impact on rentals.
 This could indicate that certain weather factors (like rain in spring) discourage bike usage, while other conditions (like clear, cold winter days) may not impact rentals as negatively as expected.
-4) Months -
+- Months -
      a) mnth_Sept (147.7071) - 
      b) mnth_May  (101.9642) - 
 Bike rentals increased slightly in May,September probably because of pleasant weather.
-5) Weather - 
+- Weather - 
      a) weathersit_L (-381.7904) - 
 	 b) weathersit_M (-272.3049)- 
 Weather conditions negatively impact bike rentals, particularly when conditions include mist, clouds, or light rain. 
 
 Recommendations : 
 
-1) Promotions and campaigns should be increased during warmer seasons or favorable weather periods to capitalize on increased demand. Also, forecasting demand based on expected temperature changes could improve bike availability management.
-2) Understanding seasonal preferences allows for seasonal marketing adjustments. Discounts can be provided on off-season to generate more bike rentals.
-3) The bike rental growth has increased significantly from 2018 to 2019 and if this trend continues, new locations can be added and increasing the no of bikes will increase revenue in future.
-4) Different promotional campaigns during the months May and September can be run to add more rentals. The promotional campaign for September should be different than May as Summer is followed after May and September comes in Fall season.
-5) Given that bad weather reduces rentals, it could be useful to develop a flexible pricing model, multi-month discount programs that offers discounts on rainy or misty days. 
+- Promotions and campaigns should be increased during warmer seasons or favorable weather periods to capitalize on increased demand. Also, forecasting demand based on expected temperature changes could improve bike availability management.
+- Understanding seasonal preferences allows for seasonal marketing adjustments. Discounts can be provided on off-season to generate more bike rentals.
+- The bike rental growth has increased significantly from 2018 to 2019 and if this trend continues, new locations can be added and increasing the no of bikes will increase revenue in future.
+- Different promotional campaigns during the months May and September can be run to add more rentals. The promotional campaign for September should be different than May as Summer is followed after May and September comes in Fall season.
+- Given that bad weather reduces rentals, it could be useful to develop a flexible pricing model, multi-month discount programs that offers discounts on rainy or misty days. 
 
 ## Technologies Used
 Jupyter version: 7.0.8
